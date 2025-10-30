@@ -1,0 +1,8 @@
+package com.BasicPrograms;
+
+public class D01Hello {
+	public static void main(String[]args)
+	{
+		System.out.println("Welcome to AViIT!!!");
+	}
+}

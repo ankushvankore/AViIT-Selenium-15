@@ -1,0 +1,7 @@
+package com.BasicPrograms;
+
+public class D02Variables {
+	public static void main(String[]args) {
+		
+	}
+}
