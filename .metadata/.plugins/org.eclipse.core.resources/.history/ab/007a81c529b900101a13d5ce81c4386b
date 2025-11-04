@@ -1,0 +1,31 @@
+package com.Functions;
+
+public class D06MethodOverloading {
+
+	public static void calculateAddition(int n1, int n2) {
+		int sum = n1 + n2;
+		System.out.println("Addition: " + sum);
+	}
+	public static void calculateAddition(int n1, int n2, int n3) {
+		int sum = n1 + n2 + n3;
+		System.out.println("Addition: " + sum);
+	}
+	public static void calculateAddition(double n1, double n2) {
+		double sum = n1 + n2;
+		System.out.println("Addition: " + sum);
+	}
+	public static void calculateAddition(double n1, int n2) {
+		double sum = n1 + n2;
+		System.out.println("Addition: " + sum);
+	}
+	public static void calculateAddition(int n1, double n2) {
+		double sum = n1 + n2;
+		System.out.println("Addition: " + sum);
+	}
+	
+	public static void main(String[] args) {
+		calculateAddition(10, 20);
+		calculateAddition(5.5, 6.6);
+	}
+
+}

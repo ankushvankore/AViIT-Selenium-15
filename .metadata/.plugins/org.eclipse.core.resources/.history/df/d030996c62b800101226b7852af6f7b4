@@ -1,0 +1,14 @@
+package com.Functions;
+
+public class D03ReturningValue {
+	public static double calculateArea(int rd)	{
+		double area = 3.142 * rd * rd;
+		return area;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

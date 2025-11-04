@@ -1,0 +1,14 @@
+package com.Functions;
+
+public class D02PassingArguments {
+
+	public static void calculateSum(int no1, int no2) {
+		int sum = no1 + no2;
+		System.out.println("Sum: " + sum);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.Functions;
+
+public class D04MultipleReturn {
+	public static int findMax(int n1, int n2) {
+		int max;
+		if(n1 > n2)
+			max = n1;
+			//return n1;
+		else
+			max = n2;
+			//return n2;
+		return max;
+	}
+	
+	public void trial() {
+		int no1 = 5, no2 = 4;
+		int m = findMax(no1, no2);
+		System.out.println("Max: " + m);
+	}
+	
+	public static void main(String[] args) {
+		int no1 = 22, no2 = 3;
+		
+		int max = findMax(no1, no2);
+		System.out.println("Max: " + max);
+		
+		trial();
+	}
+}

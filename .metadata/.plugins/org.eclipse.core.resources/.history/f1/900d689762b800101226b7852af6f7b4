@@ -1,0 +1,16 @@
+package com.Functions;
+
+public class D03ReturningValue {
+	public static double calculateArea(int rd)	{
+		double area = 3.142 * rd * rd;
+		return area;
+	}
+	
+	public static void main(String[] args) {
+		int rd = 5;
+		
+		calculateArea(rd);
+
+	}
+
+}
