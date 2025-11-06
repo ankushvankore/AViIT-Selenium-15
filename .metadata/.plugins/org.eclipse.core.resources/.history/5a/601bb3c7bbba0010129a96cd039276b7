@@ -1,7 +1,5 @@
 package com.ArrayDemos;
 
-import java.util.Arrays;
-
 public class D01ArrayDecl {
 
 	public static void main(String[] args) {
@@ -24,28 +22,6 @@ public class D01ArrayDecl {
 		//for(int i = 0; i < 5; i++)
 			//System.out.println(marks[i]);
 		
-		//for(int i = 4; i >= 1; i--)
-			//System.out.println(marks[i]);
-		
-		for(int m : marks) {
-			m++;
-			System.out.println(m);
-		}
-		
-		System.out.println("==================================");
-		System.out.println("After");
-		for(int m : marks) {
-			System.out.println(m);
-		}
-		
-		/*
-		 * Points to be noted about for each / enhanced for loop
-		 * 1. It is forward only loop
-		 * 2. It is read only loop
-		 */
-		
-		Arrays.sort(marks);
-		System.out.println("+++++++++++++++++++++++++++++\nAfter Sorting");
 		for(int m : marks)
 			System.out.println(m);
 	}

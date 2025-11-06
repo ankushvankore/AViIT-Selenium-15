@@ -1,0 +1,11 @@
+package com.ArrayDemos;
+
+public class D02ArrayDeclaration2 {
+
+	public static void main(String[] args) {
+		String[] fruits = new String[] {"Mango", "Apple", "Gauva", "Grapes", "Kiwi"	};
+		
+		for(int i = 0; i < 5; i++)
+			System.out.println(fruits[i]);
+	}
+}

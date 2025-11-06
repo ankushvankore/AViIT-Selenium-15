@@ -1,0 +1,13 @@
+package com.ArrayDemos;
+
+public class D02ArrayDeclaration2 {
+
+	public static void main(String[] args) {
+		//String[] fruits = new String[] {"Mango", "Apple", "Gauva", "Grapes", "Kiwi", "Watermelon", "Jackfruit"};
+		String[] fruits = {"Mango", "Apple", "Gauva", "Grapes", "Kiwi", "Watermelon", "Jackfruit"};
+		//Because arrays are first class objects in java
+		
+		for(int i = 0; i < fruits.length; i++)
+			System.out.println(fruits[i]);
+	}
+}
