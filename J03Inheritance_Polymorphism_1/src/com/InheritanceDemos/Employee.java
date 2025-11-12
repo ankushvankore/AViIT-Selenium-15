@@ -1,16 +1,11 @@
-package com.ClassDemos;
+package com.InheritanceDemos;
 
 public class Employee {
 	private int empId;
 	private String empName;
 	private String address;
 	private double basicSalary;
-	private static String company;
 	
-	public static void setCompany(String c) {
-		//System.out.println(empId);
-		company = c;
-	}
 	
 	public Employee() {
 		empId = 101;
@@ -31,7 +26,6 @@ public class Employee {
 		System.out.println("Employee Name: " + this.empName);
 		System.out.println("Address      : " + this.address);
 		System.out.println("Basic Salary : " + this.basicSalary);
-		System.out.println("Company Name : " + company);
 	}
 	
 	public double calculateSalary() {

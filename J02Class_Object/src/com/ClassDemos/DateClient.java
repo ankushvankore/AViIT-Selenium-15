@@ -3,6 +3,7 @@ package com.ClassDemos;
 public class DateClient {
 
 	public static void main(String[] args) {
+		MyDate dtr;
 		MyDate d1 = new MyDate();
 		d1.setDay(10);
 		d1.displayDate();
