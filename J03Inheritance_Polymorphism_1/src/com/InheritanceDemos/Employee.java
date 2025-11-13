@@ -12,6 +12,7 @@ public class Employee {
 		empName = "Snehasmita";
 		address = "Dubai";
 		basicSalary = 50000;
+		System.out.println("Employee-->Plain");
 	}
 	
 	public Employee(int id, String nm, String ad, double bs) {
@@ -19,6 +20,7 @@ public class Employee {
 		empName = nm;
 		address = ad;
 		basicSalary = bs;
+		System.out.println("Employee-->Parameterized");
 	}
 	
 	public void displayData() {
