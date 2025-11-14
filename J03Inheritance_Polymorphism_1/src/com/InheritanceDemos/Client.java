@@ -13,5 +13,4 @@ public class Client {
 		m2.displayData();
 		System.out.println("Net Salary   : " + m2.calculateSalary());
 	}
-
 }

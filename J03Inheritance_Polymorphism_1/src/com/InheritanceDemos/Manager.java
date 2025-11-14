@@ -6,17 +6,17 @@ public class Manager extends Employee
 	private double rate;
 	
 	public Manager() {
-		super();
+		super();			//It will call plain constructor of base class
 		sales = 0;
 		rate = 0;
-		System.out.println("Manager-->Plain");
+		//System.out.println("Manager-->Plain");
 	}
 
 	public Manager(int id, String nm, double bs, String ad, double sales, double rate) {
 		super(id, nm, ad, bs);	//Will call parameterized constructor of Employee class
 		this.sales = sales;
 		this.rate = rate;
-		System.out.println("Manager-->Parameterized");
+		//System.out.println("Manager-->Parameterized");
 	}
 	
 	public double calculateInsentive() {
@@ -24,6 +24,7 @@ public class Manager extends Employee
 	}
 	
 	public double calculateSalary() {
+		System.out.println("Basic Salary: " + basicSalary);
 		return (super.calculateSalary() + calculateInsentive());
 	}
 	

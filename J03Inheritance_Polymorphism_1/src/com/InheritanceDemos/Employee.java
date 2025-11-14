@@ -4,7 +4,7 @@ public class Employee {
 	private int empId;
 	private String empName;
 	private String address;
-	private double basicSalary;
+	protected double basicSalary;
 	
 	
 	public Employee() {
@@ -12,7 +12,7 @@ public class Employee {
 		empName = "Snehasmita";
 		address = "Dubai";
 		basicSalary = 50000;
-		System.out.println("Employee-->Plain");
+		//System.out.println("Employee-->Plain");
 	}
 	
 	public Employee(int id, String nm, String ad, double bs) {
@@ -20,7 +20,7 @@ public class Employee {
 		empName = nm;
 		address = ad;
 		basicSalary = bs;
-		System.out.println("Employee-->Parameterized");
+		//System.out.println("Employee-->Parameterized");
 	}
 	
 	public void displayData() {
