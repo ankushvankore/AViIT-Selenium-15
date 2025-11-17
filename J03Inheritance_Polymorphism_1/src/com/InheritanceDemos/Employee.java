@@ -1,6 +1,7 @@
 package com.InheritanceDemos;
 
-public class Employee {
+
+public class Employee implements Comparable<Employee>{
 	private int empId;
 	private String empName;
 	private String address;
@@ -40,4 +41,10 @@ public class Employee {
 		
 		return net;
 	}
+
+	@Override
+	public int compareTo(Employee o) {
+		return Integer.compare(this.empId, o.empId);
+	}
+
 }

@@ -1,6 +1,6 @@
 package com.AbstractDemos;
 
-public class Triangle extends Shape{
+public class Triangle extends Shape implements PrintInfo{
 	private int base;
 	private int height;
 	
@@ -13,7 +13,13 @@ public class Triangle extends Shape{
 	@Override
 	public void calculateArea() {
 		double area = 0.5 * base * height;
-		System.out.println("Area of Circle: " + area);		
+		System.out.println("Area of Triangle: " + area);		
+	}
+
+	@Override
+	public void print() {
+		System.out.println("This is Triangle Class!!!");
+		
 	}
 	
 	
