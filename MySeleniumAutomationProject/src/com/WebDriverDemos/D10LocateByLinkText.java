@@ -13,6 +13,9 @@ public class D10LocateByLinkText {
 
 		driver.get("https://www.google.com/");
 
+		//WebElement adLink = driver.findElement(By.partialLinkText("A"));
+		//adLink.click();
+		
 		WebElement aboutLink = driver.findElement(By.linkText("About"));
 		aboutLink.click();
 		
@@ -21,6 +24,7 @@ public class D10LocateByLinkText {
 			System.out.println("About page launched!!!");
 		else
 			System.out.println("About page not launched!!!");
+			
 	}
 
 }
