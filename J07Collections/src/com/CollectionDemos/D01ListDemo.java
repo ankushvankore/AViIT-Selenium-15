@@ -16,7 +16,7 @@ public class D01ListDemo {
 		
 		System.out.println("Total days: " + days.size());
 		
-		//System.out.println(days.get(1));
+		System.out.println(days.get(1));
 		//System.out.println(days.get(2));
 		
 		//for(int i = 0; i < days.size(); i++)
