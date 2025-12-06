@@ -29,9 +29,14 @@ public class D26HandlingMultipleWindows {
 		Set<String>windows = driver.getWindowHandles();
 		//System.out.println(windows);
 
+		/*
 		Iterator<String>itr = windows.iterator();
 		String win1 = itr.next();		//will return 1st element / id of 1st window
 		String win2 = itr.next();		//will return 2nd element / id of 2nd window
+		*/
+		Object[] winArray = windows.toArray();
+		String win1 = winArray[0].toString();
+		String win2 = winArray[1].toString();
 		
 		driver.switchTo().window(win2);
 		Thread.sleep(3000);
@@ -43,7 +48,7 @@ public class D26HandlingMultipleWindows {
 		driver.switchTo().window(win1);
 		driver.findElement(By.linkText("Login")).click();
 		
-		driver.switchTo().newWindow(WindowType.TAB);
+		driver.switchTo().newWindow(WindowType.WINDOW);
 		driver.get("https://www.google.com");
 		
 		Thread.sleep(3000);

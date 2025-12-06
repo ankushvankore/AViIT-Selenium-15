@@ -13,7 +13,8 @@ public class D27NavigationMethods {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		driver.get("https://www.google.com/");
+		//driver.get("https://www.google.com/");
+		driver.navigate().to("https://google.com");
 		
 		driver.findElement(By.partialLinkText("How")).click();
 		Thread.sleep(2000);
