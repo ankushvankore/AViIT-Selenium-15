@@ -21,7 +21,7 @@ public class D31HandlingMenus {
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")).submit();
 		
-		List<WebElement>menus = driver.findElements(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li/a/span"));
+		List<WebElement>menus = driver.findElements(By.xpath("//ul[@class=\"oxd-main-menu\"]/li"));
 		System.out.println("Total menus: " + menus.size());
 		
 		for(WebElement m : menus)
