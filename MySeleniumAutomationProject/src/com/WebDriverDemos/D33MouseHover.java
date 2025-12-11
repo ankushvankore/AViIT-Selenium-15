@@ -21,7 +21,6 @@ public class D33MouseHover {
 		Actions act = new Actions(driver);
 		
 		WebElement spMenu = driver.findElement(By.linkText("SPECIALIST"));
-		
 		act.moveToElement(spMenu).perform();
 		
 		Thread.sleep(2000);

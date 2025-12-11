@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class D35DragAndDrop {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -29,6 +29,10 @@ public class D35DragAndDrop {
 		WebElement target = driver.findElement(By.id("droppable"));
 		
 		act.dragAndDrop(source, target).perform();
+		
+		Thread.sleep(3000);
+		driver.close();
+		
 	}
 
 }

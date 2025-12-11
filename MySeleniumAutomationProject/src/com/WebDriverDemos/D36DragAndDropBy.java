@@ -26,7 +26,7 @@ public class D36DragAndDropBy {
 		int x = slider.getLocation().x;
 		int y = slider.getLocation().y;
 		
-		act.dragAndDropBy(slider, x+100, y).perform();
+		act.dragAndDropBy(slider, x+1000, y).perform();
 	}
 
 }

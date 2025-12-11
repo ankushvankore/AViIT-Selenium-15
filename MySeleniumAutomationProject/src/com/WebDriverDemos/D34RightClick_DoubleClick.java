@@ -38,7 +38,8 @@ public class D34RightClick_DoubleClick {
 		act.click(driver.findElement(By.id("authentication"))).perform();		
 		
 		WebElement doubleClickButton = driver.findElement(By.xpath("//*[@id=\"authentication\"]/button"));
-		act.moveToElement(doubleClickButton).doubleClick().perform();
+		//act.moveToElement(doubleClickButton).doubleClick().perform();
+		act.doubleClick(doubleClickButton).perform();
 		
 		System.out.println("------------- After Double click -------------");
 		
