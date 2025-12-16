@@ -15,14 +15,20 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class D06DataProviderDemo {
+public class D07AssertionDemo {
 	WebDriver driver;
+	String expUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index", actUrl;
 	
 	@Test(dataProvider = "getLoginDetails")
 	public void loginToOHRM(String un, String ps) {
 		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys(un);
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(ps);
 		driver.findElement(By.xpath("//button[@type='submit']")).submit();
+		
+		actUrl = driver.getCurrentUrl();
+		//Assert.assertEquals(actUrl, expUrl);
+		//Assert.assertTrue(actUrl.equals(expUrl));
+		Assert.assertTrue(actUrl.contains("dashboard"));
 	}
 
 	@DataProvider
@@ -67,5 +73,4 @@ public class D06DataProviderDemo {
 	public void afterTest() {
 		driver.close();
 	}
-
 }
