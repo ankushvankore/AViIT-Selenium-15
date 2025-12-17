@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name = "Google Tests">
-	<test name = "Execute Single Test">
+	<test name = "Skip Single Test">
 		<classes>
 			<class name ="com.TestNGDemos.D05GoogleAssignment">
+			<!-- This is comment -->
 				<methods>
-					<include name = "clickOnAbout"></include>
-					<include name = "clickOnGmail"></include>
+					<exclude name = "clickOnAdvt"></exclude>
+					<!-- <exclude name = "clickOnAbout"></exclude> -->
 				</methods>
 			</class>
 		</classes>

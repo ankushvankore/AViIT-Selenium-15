@@ -13,38 +13,38 @@ import org.testng.annotations.Test;
 
 public class D05GoogleAssignment {
 	WebDriver driver;
-	@Test(priority = 1)
+	@Test(priority = 1, groups = "TopFunctionalities")
 	public void clickOnGmail() {
 		driver.findElement(By.linkText("Gmail")).click();
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 2, groups = "TopFunctionalities")
 	public void clickOnImages() {
 		driver.findElement(By.linkText("Images")).click();
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 3, groups = "GooglLinks")
 	public void clickOnAdvt() {
 		driver.findElement(By.partialLinkText("Adve")).click();
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 4, groups = "GooglLinks")
 	public void clickOnAbout() {
 		driver.findElement(By.partialLinkText("About")).click();
 	}
 
-	@BeforeMethod 
+	@BeforeMethod (alwaysRun = true)
 	public void beforeMethod() {
 		driver.get("https://google.com");
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@AfterMethod 
+	@AfterMethod (alwaysRun = true)
 	public void afterMethod() {
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@BeforeTest
+	@BeforeTest (alwaysRun = true)
 	public void beforeTest() {
 		driver = new EdgeDriver();	
 		driver.manage().window().maximize();
@@ -52,7 +52,7 @@ public class D05GoogleAssignment {
 
 	}
 
-	@AfterTest
+	@AfterTest (alwaysRun = true)
 	public void afterTest() {
 		driver.close();
 	}

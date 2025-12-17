@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name = "Google Tests">
 	<test name = "Execute Single Test">
+		<groups>
+			<run>
+				<include name = "TopFunctionalities"></include>
+			</run>
+		</groups>
 		<classes>
 			<class name ="com.TestNGDemos.D05GoogleAssignment">
-				<methods>
-					<include name = "clickOnAbout"></include>
-					<include name = "clickOnGmail"></include>
-				</methods>
 			</class>
 		</classes>
+		
 	</test>
 </suite>

@@ -28,7 +28,7 @@ public class D07AssertionDemo {
 		actUrl = driver.getCurrentUrl();
 		//Assert.assertEquals(actUrl, expUrl);
 		//Assert.assertTrue(actUrl.equals(expUrl));
-		Assert.assertTrue(actUrl.contains("dashboard"));
+		Assert.assertTrue(actUrl.contains("dashboard"), "Invalid credentials");
 	}
 
 	@DataProvider
