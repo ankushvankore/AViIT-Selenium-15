@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGDemos.D07AssertionDemo">
+      <class name="com.Assignments.D09ForAssertion">
         <methods>
-          <include name="logout"/>
-          <include name="afterTest"/>
-          <include name="loginToOHRM" invocation-numbers="1 3 4"/>
-          <include name="beforeTest"/>
+          <include name="softAssertionDemo"/>
+          <include name="hardAssertionDemo"/>
         </methods>
-      </class> <!-- com.TestNGDemos.D07AssertionDemo -->
+      </class> <!-- com.Assignments.D09ForAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
