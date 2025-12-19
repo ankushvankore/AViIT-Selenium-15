@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Parallel Execution">
+	<test name = "Online Shopping Applications">
+		<parameters>
+			<parameter name = "userName" value = "student"></parameter>
+			<parameter name = "password" value = "Password123"></parameter>
+			
+			<parameter name = "userName1" value = "shraddha"></parameter>
+			<parameter name = "password1" value = "shraddha123"></parameter>
+		</parameters>
+		<classes>
+			<class name ="com.TestNGDemos.D08ParameterizationLoginToPracticeTest">
+			</class>
+		</classes>
+	</test>
+</suite>
