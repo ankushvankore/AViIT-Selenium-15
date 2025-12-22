@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Assignments.D09ForAssertion">
+      <class name="com.TestNGDemos.D10POM_Client">
         <methods>
-          <include name="softAssertionDemo"/>
-          <include name="hardAssertionDemo"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- com.Assignments.D09ForAssertion -->
+      </class> <!-- com.TestNGDemos.D10POM_Client -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
