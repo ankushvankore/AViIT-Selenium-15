@@ -5,6 +5,7 @@
     <classes>
       <class name="com.TestNGDemos.D10POM_Client">
         <methods>
+          <include name="refreshPage"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
           <include name="createUser"/>
