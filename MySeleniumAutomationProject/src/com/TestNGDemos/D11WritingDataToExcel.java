@@ -32,7 +32,7 @@ public class D11WritingDataToExcel {
 
 	@BeforeTest
 	public void beforeTest() throws FileNotFoundException {
-		file = new File("ExcelFiles\\MyFirstExcelFile.xlsx");
+		file = new File("MyFirstExcelFile.xlsx");
 		fos = new FileOutputStream(file);
 		wb = new XSSFWorkbook();
 		sheet = wb.createSheet("First Sheet");
