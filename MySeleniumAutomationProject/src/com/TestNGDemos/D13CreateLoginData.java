@@ -27,7 +27,7 @@ public class D13CreateLoginData {
 	
 	@Test(dataProvider = "getLoginData")
 	public void writeToExcel(String un, String ps) {
-		row = sheet.createRow(index);
+		/*row = sheet.createRow(index);
 		cell = row.createCell(0);
 		cell.setCellValue(un);
 		
@@ -35,7 +35,11 @@ public class D13CreateLoginData {
 		cell.setCellValue(ps);
 		
 		cell = row.createCell(2);
-		cell.setCellValue("Not Run");
+		cell.setCellValue("Not Run");*/
+		
+		sheet.createRow(index).createCell(0).setCellValue(un);
+		sheet.getRow(index).createCell(1).setCellValue(ps);
+		sheet.getRow(index).createCell(2).setCellValue("Not Run");
 		
 		index++;
 	}
