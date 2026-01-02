@@ -45,3 +45,33 @@
 2025-12-29 07:23:29,359 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2025-12-30 07:18:10,097 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2025-12-31 07:25:35,596 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-01-01 07:30:52,360 [Worker-11: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-01-01 07:52:01,563 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\AViIT\Demos\Selenium_15\MyMavenProject\pom.xml
+2026-01-01 07:52:03,676 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_15\MyMavenProject\pom.xml.
+2026-01-01 07:52:05,037 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/main/java
+2026-01-01 07:52:05,050 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/test/java
+2026-01-01 07:52:06,770 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2026-01-01 07:52:07,537 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 07:52:07,543 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
+2026-01-01 08:07:03,006 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_15\MyMavenProject\pom.xml.
+2026-01-01 08:07:03,253 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 08:07:03,256 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
+2026-01-01 08:07:04,400 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 08:07:04,402 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
+2026-01-01 08:07:31,640 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 08:07:31,642 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
+2026-01-01 08:07:38,246 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 08:07:38,249 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
+2026-01-01 08:08:47,017 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 08:08:47,019 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
+2026-01-01 08:10:14,511 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 08:10:14,513 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
+2026-01-01 08:21:47,529 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_15\MyMavenProject\pom.xml.
+2026-01-01 08:21:48,353 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 08:21:48,358 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
+2026-01-01 08:21:50,299 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 08:21:50,306 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
+2026-01-01 08:21:50,583 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 08:21:50,585 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
+2026-01-01 08:24:59,829 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\main\resources
+2026-01-01 08:24:59,831 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_15\MyMavenProject\src\test\resources
