@@ -16,7 +16,7 @@ public class R05SeleniumLinks {
 	 * Execute multiple scenarios:		tags = "@DownloadsLink or @ProjectsLink"
 	 * Skip Single Scenario:			tags = "not @ProjectsLink"
 	 * Skip Multiple Scenarios:			tags = "not @ProjectsLink and not @SupportLink"
-	 * 
+	 * Execute all Scenarios:			tags = "@SeleniumLinks"
 	 */
 
 }
