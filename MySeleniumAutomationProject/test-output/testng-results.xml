@@ -1,97 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-31T07:57:30 IST" name="Default suite" finished-at="2025-12-31T07:57:55 IST" duration-ms="25785">
+  <suite started-at="2026-01-14T08:22:51 IST" name="Failed suite [Default suite]" finished-at="2026-01-14T08:23:12 IST" duration-ms="21230">
     <groups>
     </groups>
-    <test started-at="2025-12-31T07:57:30 IST" name="Default test" finished-at="2025-12-31T07:57:55 IST" duration-ms="25785">
-      <class name="com.TestNGDemos.D15LoginToOHRM_DDF">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:30 IST" name="beforeTest" finished-at="2025-12-31T07:57:39 IST" duration-ms="9250" status="PASS">
+    <test started-at="2026-01-14T08:22:51 IST" name="Default test(failed)" finished-at="2026-01-14T08:23:12 IST" duration-ms="21230">
+      <class name="com.TestNGDemos.D07AssertionDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@292b08d6]" started-at="2026-01-14T08:22:51 IST" name="beforeTest" finished-at="2026-01-14T08:23:01 IST" duration-ms="10278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:39 IST" name="login" data-provider="getLoginData" finished-at="2025-12-31T07:57:41 IST" duration-ms="2201" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:41 IST" name="logout" finished-at="2025-12-31T07:57:44 IST" duration-ms="2499" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:44 IST" name="login" data-provider="getLoginData" finished-at="2025-12-31T07:57:45 IST" duration-ms="1419" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[piyu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[piyu123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:45 IST" name="logout" finished-at="2025-12-31T07:57:46 IST" duration-ms="390" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:46 IST" name="login" data-provider="getLoginData" finished-at="2025-12-31T07:57:47 IST" duration-ms="980" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[poonam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[poonam123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:47 IST" name="logout" finished-at="2025-12-31T07:57:47 IST" duration-ms="392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:47 IST" name="login" data-provider="getLoginData" finished-at="2025-12-31T07:57:48 IST" duration-ms="1333" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:48 IST" name="logout" finished-at="2025-12-31T07:57:50 IST" duration-ms="1801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:50 IST" name="login" data-provider="getLoginData" finished-at="2025-12-31T07:57:52 IST" duration-ms="1399" status="PASS">
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D07AssertionDemo@292b08d6]" started-at="2026-01-14T08:23:01 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2026-01-14T08:23:07 IST" duration-ms="6047" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -104,58 +24,181 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid credentials expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid credentials expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.TestNGDemos.D07AssertionDemo.loginToOHRM(D07AssertionDemo.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:52 IST" name="logout" finished-at="2025-12-31T07:57:52 IST" duration-ms="409" status="PASS">
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@292b08d6]" started-at="2026-01-14T08:23:07 IST" name="logout" finished-at="2026-01-14T08:23:07 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:52 IST" name="login" data-provider="getLoginData" finished-at="2025-12-31T07:57:53 IST" duration-ms="967" status="PASS">
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D07AssertionDemo@292b08d6]" started-at="2026-01-14T08:23:07 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2026-01-14T08:23:09 IST" duration-ms="1842" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[megha]]>
+                <![CDATA[piyu]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[megha123]]>
+                <![CDATA[piyu123]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid credentials expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid credentials expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.TestNGDemos.D07AssertionDemo.loginToOHRM(D07AssertionDemo.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:53 IST" name="logout" finished-at="2025-12-31T07:57:53 IST" duration-ms="371" status="PASS">
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@292b08d6]" started-at="2026-01-14T08:23:09 IST" name="logout" finished-at="2026-01-14T08:23:09 IST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:53 IST" name="login" data-provider="getLoginData" finished-at="2025-12-31T07:57:54 IST" duration-ms="939" status="PASS">
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D07AssertionDemo@292b08d6]" started-at="2026-01-14T08:23:09 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2026-01-14T08:23:11 IST" duration-ms="1927" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sneha]]>
+                <![CDATA[poonam]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[sneha123]]>
+                <![CDATA[poonam123]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid credentials expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid credentials expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.TestNGDemos.D07AssertionDemo.loginToOHRM(D07AssertionDemo.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:54 IST" name="logout" finished-at="2025-12-31T07:57:55 IST" duration-ms="442" status="PASS">
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@292b08d6]" started-at="2026-01-14T08:23:11 IST" name="logout" finished-at="2026-01-14T08:23:11 IST" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-12-31T07:57:55 IST" name="afterTest" finished-at="2025-12-31T07:57:55 IST" duration-ms="819" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@292b08d6]" started-at="2026-01-14T08:23:11 IST" name="afterTest" finished-at="2026-01-14T08:23:12 IST" duration-ms="731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D15LoginToOHRM_DDF -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.TestNGDemos.D07AssertionDemo -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>
